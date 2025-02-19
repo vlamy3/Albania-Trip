@@ -1,0 +1,102 @@
+/* Global Styles ----------------------> */ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', serif;
+    background-color: #f1f1f1;
+}
+p {
+    font-size: 1.2rem;
+}
+hr {
+    background-color: #ccc;
+    border-style:ridge
+}
+/*Home ---------------------------------> */
+nav a {
+    float: left;
+    display: block;
+    margin: 0 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/*Maps ---------------------------------> */
+
+
+/* Links -------------------------------> */
+a {
+    color: #000;
+    text-decoration: none;
+}
+/* Lists -------------------------------> */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+main ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+nav a:hover {
+    background-color:#C9ADA7; 
+    padding:5px 20px;
+    border-radius: 5px;
+    justify-content: center;
+    transition: 0.3s;
+    margin: 0, 20px;
+
+}
+main a {
+    color: #4A4E69;
+}
+
+/*Headers -------------------------------> */
+h1 {
+    font-family: "Shafarik", serif;
+    text-align: center;
+    margin: 20px;
+}
+h2 {
+    font-family: "Shafarik", serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+h3 {
+    font-family: "Shafarik", serif;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+/* Images -------------------------------> */
+.gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+/* Buttons -------------------------------> */
+button {
+    background-color: #4A4E69;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
