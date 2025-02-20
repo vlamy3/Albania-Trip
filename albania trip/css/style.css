@@ -1,6 +1,6 @@
 /* Global Styles ----------------------> */ 
 body {
-    margin: 0;
+    margin: 0 60px;
     padding: 0;
     font-family: 'Caveat', serif;
     background-color: #f1f1f1;
@@ -11,6 +11,10 @@ p {
 hr {
     background-color: #ccc;
     border-style:ridge
+}
+mark {
+    background-color: #ccd5ae;
+    color: #000;
 }
 /*Home ---------------------------------> */
 nav a {
