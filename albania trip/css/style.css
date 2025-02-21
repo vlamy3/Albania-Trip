@@ -17,23 +17,24 @@ mark {
     color: #000;
 }
 /* Responsive for tablets */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
     .container {
         width: 90%;
     }
 }
 
 /* Responsive for smartphones */
-@media screen and (max-width: 768px) {
-    .container {
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    section {
         width: 95%;
     }
 
     nav {
         flex-direction: column;
+        align-items: center;
     }
 
-    .menu {
+    .pic {
         display: block;
         text-align: center;
     }
